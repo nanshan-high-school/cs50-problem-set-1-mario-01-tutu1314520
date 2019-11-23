@@ -9,10 +9,10 @@ int main(void) {
        } while(times < 1 || times > 8);
 
        for(int t = 0; t < times;t++) {
-           for(int j=1;j<=5-t;j++){
+           for(int j = 1;j <= 5 - t;j++){
 		       cout << " ";
 		       }
-		       for(int n=0;n<=t;n++){
+		       for(int n = 0;n <= t;n++){
 		       cout << "#";
 		       }
            cout << "\n";
