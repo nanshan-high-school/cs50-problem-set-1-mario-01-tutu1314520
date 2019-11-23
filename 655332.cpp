@@ -13,7 +13,7 @@ int main(void) {
 	       cout << " ";
            }
            for(int n = 0;n <= t;n++){
-		       cout << "#";
+	       cout << "#";
            }
            cout << "\n";
        }       
